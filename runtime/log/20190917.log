@@ -1,0 +1,2795 @@
+---------------------------------------------------------------
+[2019-09-17T11:39:14+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.080971s] [吞吐率：12.35req/s] [内存消耗：2,766.88kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012661s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.025636s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[2019-09-17T11:39:17+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.041208s] [吞吐率：24.27req/s] [内存消耗：2,767.06kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000599s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006239s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[2019-09-17T11:39:17+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.054604s] [吞吐率：18.31req/s] [内存消耗：2,767.06kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010180s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006612s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[2019-09-17T11:39:18+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.041499s] [吞吐率：24.10req/s] [内存消耗：2,767.06kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000550s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.007052s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000288s ]
+---------------------------------------------------------------
+[2019-09-17T12:04:13+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.077408s] [吞吐率：12.92req/s] [内存消耗：2,904.20kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011286s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006398s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[2019-09-17T12:04:13+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.067482s] [吞吐率：14.82req/s] [内存消耗：2,767.04kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009914s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006425s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[2019-09-17T12:04:13+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.052069s] [吞吐率：19.21req/s] [内存消耗：2,767.04kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009840s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006485s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[2019-09-17T12:05:48+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.052494s] [吞吐率：19.05req/s] [内存消耗：2,904.13kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010236s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.005908s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[2019-09-17T12:05:48+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.073552s] [吞吐率：13.60req/s] [内存消耗：2,767.04kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010251s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.024877s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[2019-09-17T12:05:48+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.076688s] [吞吐率：13.04req/s] [内存消耗：2,767.04kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010228s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.028891s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[2019-09-17T12:06:15+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.074882s] [吞吐率：13.35req/s] [内存消耗：2,904.15kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011054s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.005899s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000281s ]
+---------------------------------------------------------------
+[2019-09-17T12:06:15+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.057535s] [吞吐率：17.38req/s] [内存消耗：2,767.05kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.022358s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[2019-09-17T12:06:15+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.041466s] [吞吐率：24.12req/s] [内存消耗：2,767.05kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000605s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006643s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[2019-09-17T12:07:09+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.044141s] [吞吐率：22.65req/s] [内存消耗：2,904.37kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.005932s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000256s ]
+---------------------------------------------------------------
+[2019-09-17T12:07:09+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.057102s] [吞吐率：17.51req/s] [内存消耗：2,767.05kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010533s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006312s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[2019-09-17T12:29:58+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.075480s] [吞吐率：13.25req/s] [内存消耗：2,904.49kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011879s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006473s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[2019-09-17T12:29:59+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.051940s] [吞吐率：19.25req/s] [内存消耗：2,767.05kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011118s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006314s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[2019-09-17T12:30:00+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.067548s] [吞吐率：14.80req/s] [内存消耗：2,767.05kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011208s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.005963s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[2019-09-17T12:30:00+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.044383s] [吞吐率：22.53req/s] [内存消耗：2,767.05kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.007349s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[2019-09-17T12:30:00+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.064462s] [吞吐率：15.51req/s] [内存消耗：2,767.05kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010005s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.018471s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[2019-09-17T12:32:02+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.088817s] [吞吐率：11.26req/s] [内存消耗：2,767.05kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009952s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.021524s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[2019-09-17T12:32:03+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.063553s] [吞吐率：15.73req/s] [内存消耗：2,767.05kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.015159s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[2019-09-17T12:32:49+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.065193s] [吞吐率：15.34req/s] [内存消耗：2,904.33kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011281s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006789s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[2019-09-17T12:32:50+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.043122s] [吞吐率：23.19req/s] [内存消耗：2,767.05kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000711s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006011s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000284s ]
+---------------------------------------------------------------
+[2019-09-17T12:32:50+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.059738s] [吞吐率：16.74req/s] [内存消耗：2,767.05kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010960s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.011666s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000587s ]
+---------------------------------------------------------------
+[2019-09-17T12:32:50+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.067645s] [吞吐率：14.78req/s] [内存消耗：2,767.05kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010975s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.007278s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000325s ]
+---------------------------------------------------------------
+[2019-09-17T14:00:43+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.065460s] [吞吐率：15.28req/s] [内存消耗：2,904.64kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011232s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006434s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[2019-09-17T14:00:43+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.050687s] [吞吐率：19.73req/s] [内存消耗：2,767.49kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010018s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006294s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[2019-09-17T14:00:44+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.045078s] [吞吐率：22.18req/s] [内存消耗：2,767.49kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000569s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.009396s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000350s ]
+---------------------------------------------------------------
+[2019-09-17T14:02:16+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.062104s] [吞吐率：16.10req/s] [内存消耗：2,904.48kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010933s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.013294s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[2019-09-17T14:02:16+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.058585s] [吞吐率：17.07req/s] [内存消耗：2,767.49kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010360s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.007683s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[2019-09-17T14:15:56+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.076880s] [吞吐率：13.01req/s] [内存消耗：2,906.25kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012394s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.011672s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[2019-09-17T14:15:56+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.051258s] [吞吐率：19.51req/s] [内存消耗：2,767.49kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010476s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006358s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[2019-09-17T14:15:56+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.055546s] [吞吐率：18.00req/s] [内存消耗：2,767.49kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009719s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006975s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[2019-09-17T14:16:02+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.060615s] [吞吐率：16.50req/s] [内存消耗：2,682.23kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '18',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,sdfasff',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010232s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006237s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[2019-09-17T14:16:08+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.053971s] [吞吐率：18.53req/s] [内存消耗：2,682.23kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '18',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,sdfasff',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010398s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006160s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[2019-09-17T14:16:10+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.049200s] [吞吐率：20.33req/s] [内存消耗：2,682.23kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '18',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,sdfasff',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010267s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.007194s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[2019-09-17T14:16:12+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.052875s] [吞吐率：18.91req/s] [内存消耗：2,682.23kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '18',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,sdfasff',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010528s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006070s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[2019-09-17T14:16:14+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.048263s] [吞吐率：20.72req/s] [内存消耗：2,682.23kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '18',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,sdfasff',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010327s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006337s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[2019-09-17T14:16:21+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.055086s] [吞吐率：18.15req/s] [内存消耗：2,682.23kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '18',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,sdfasff',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010216s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006251s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000303s ]
+---------------------------------------------------------------
+[2019-09-17T14:24:58+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.057595s] [吞吐率：17.36req/s] [内存消耗：2,682.23kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '18',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,sdfasff',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011030s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006251s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[2019-09-17T14:25:10+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.050673s] [吞吐率：19.73req/s] [内存消耗：2,682.31kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '18',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,sdfasff',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010391s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006433s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[2019-09-17T14:25:48+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.052885s] [吞吐率：18.91req/s] [内存消耗：2,754.98kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '18',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,sdfasff',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010567s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.005958s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000303s ]
+[ error ] [2]trim() expects at least 1 parameter, 0 given[D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\controller\SetConfig.php:129]
+---------------------------------------------------------------
+[2019-09-17T14:26:09+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.052996s] [吞吐率：18.87req/s] [内存消耗：2,767.63kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009936s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006275s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[2019-09-17T14:26:14+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.051181s] [吞吐率：19.54req/s] [内存消耗：2,755.11kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '19',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,asdfsafs',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000626s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.007138s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000287s ]
+[ error ] [8]Use of undefined constant trim - assumed 'trim'[D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\controller\SetConfig.php:129]
+---------------------------------------------------------------
+[2019-09-17T14:29:00+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.082422s] [吞吐率：12.13req/s] [内存消耗：2,767.61kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011406s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.017744s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[2019-09-17T14:29:03+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.047539s] [吞吐率：21.04req/s] [内存消耗：2,682.45kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '20',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,dsfasdfas',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009728s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.005980s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[2019-09-17T14:39:01+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.053187s] [吞吐率：18.80req/s] [内存消耗：2,769.81kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001821s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006600s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[2019-09-17T14:39:07+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.053447s] [吞吐率：18.71req/s] [内存消耗：2,769.68kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009929s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.007436s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000325s ]
+---------------------------------------------------------------
+[2019-09-17T14:39:07+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.058253s] [吞吐率：17.17req/s] [内存消耗：2,769.68kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010724s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006213s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[2019-09-17T14:39:08+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.053132s] [吞吐率：18.82req/s] [内存消耗：2,769.68kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010027s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.007298s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[2019-09-17T14:41:46+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.068031s] [吞吐率：14.70req/s] [内存消耗：2,908.45kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000670s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.007359s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[2019-09-17T14:41:46+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.057314s] [吞吐率：17.45req/s] [内存消耗：2,769.66kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010922s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006771s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000249s ]
+---------------------------------------------------------------
+[2019-09-17T14:42:34+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.063201s] [吞吐率：15.82req/s] [内存消耗：2,908.49kb] [文件加载：88]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010380s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006641s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[2019-09-17T14:42:35+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.042550s] [吞吐率：23.50req/s] [内存消耗：2,769.64kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006958s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000295s ]
+---------------------------------------------------------------
+[2019-09-17T14:48:35+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.071444s] [吞吐率：14.00req/s] [内存消耗：2,770.34kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012589s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.012294s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[2019-09-17T14:48:35+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.055510s] [吞吐率：18.01req/s] [内存消耗：2,770.24kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011229s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006668s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[2019-09-17T14:48:35+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.069158s] [吞吐率：14.46req/s] [内存消耗：2,770.24kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010806s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.016718s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000492s ]
+---------------------------------------------------------------
+[2019-09-17T14:48:40+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.050591s] [吞吐率：19.77req/s] [内存消耗：2,757.55kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '16',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,sfdsf',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001328s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006974s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000312s ]
+[ error ] [2]Illegal string offset 'name'[D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\controller\SetConfig.php:135]
+---------------------------------------------------------------
+[2019-09-17T14:49:28+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.059398s] [吞吐率：16.84req/s] [内存消耗：2,770.31kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010203s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006723s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[2019-09-17T14:49:32+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.039924s] [吞吐率：25.05req/s] [内存消耗：2,685.91kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '16',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,sdfsf',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000530s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.007267s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[2019-09-17T14:50:18+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.053514s] [吞吐率：18.69req/s] [内存消耗：2,770.57kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001076s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006916s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[2019-09-17T14:50:42+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.052443s] [吞吐率：19.07req/s] [内存消耗：2,685.75kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '15',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,sdfs',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000504s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006655s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[2019-09-17T14:51:49+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.070349s] [吞吐率：14.21req/s] [内存消耗：2,770.57kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011173s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006282s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[2019-09-17T14:51:49+08:00] 127.0.0.1 GET www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.054098s] [吞吐率：18.48req/s] [内存消耗：2,770.57kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_head.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\setconfig_tag.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\admin\view\public_foot.php [ array (
+  0 => 'catalog_data',
+  1 => 'controller',
+  2 => 'action',
+  3 => 'tempname',
+  4 => 'config_tag_str',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000577s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006552s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[2019-09-17T14:51:55+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.052804s] [吞吐率：18.94req/s] [内存消耗：2,685.85kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '16',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,d\'f\'s',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.007699s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[2019-09-17T14:52:08+08:00] 127.0.0.1 POST www.crmeb.com/admin/set_config/tag.html
+[运行时间：0.079467s] [吞吐率：12.58req/s] [内存消耗：2,686.26kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/admin/set_config/tag.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.71',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.crmeb.com',
+  'accept' => '*/*',
+  'content-length' => '16',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/set_config/tag_html' => '',
+  'tag' => '2313,d\'f\'s',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009852s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config_tag` [ RunTime:0.006378s ]
+[ sql ] [ SQL ] SELECT * FROM `config_tag` [ RunTime:0.000342s ]

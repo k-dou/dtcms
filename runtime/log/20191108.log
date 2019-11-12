@@ -1,0 +1,844 @@
+---------------------------------------------------------------
+[2019-11-08T09:07:21+08:00] 127.0.0.1 GET www.crmeb.com/?type=1
+[运行时间：0.095378s] [吞吐率：10.48req/s] [内存消耗：2,836.41kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/info/4/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/index_index.php [ array (
+  0 => 'backimg',
+  1 => 'page',
+  2 => 'list',
+  3 => 'type',
+  4 => 'tops',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001888s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.007890s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.007323s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.008373s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `status` = 1  AND `type` = 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `status` = 1  AND `type` = 1 LIMIT 0,5 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img` FROM `article` WHERE  `type` = 1  AND `status` = 1  AND `img` <> '' ORDER BY id desc LIMIT 5 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.007628s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[2019-11-08T09:07:22+08:00] 127.0.0.1 GET www.crmeb.com/
+[运行时间：0.095242s] [吞吐率：10.50req/s] [内存消耗：2,875.59kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/?type=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/index_index.php [ array (
+  0 => 'backimg',
+  1 => 'page',
+  2 => 'list',
+  3 => 'type',
+  4 => 'tops',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011574s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.012500s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.008648s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.008507s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `status` = 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `status` = 1 LIMIT 0,5 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img` FROM `article` WHERE  `status` = 1  AND `img` <> '' ORDER BY id desc LIMIT 5 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.009588s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[2019-11-08T09:07:26+08:00] 127.0.0.1 GET www.crmeb.com/info/2/
+[运行时间：0.081194s] [吞吐率：12.32req/s] [内存消耗：2,696.45kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'info/<id>',
+  'route' => 'index/Info/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => '2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/info/2/' => '',
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/info_index.php [ array (
+  0 => 'backimg',
+  1 => 'info',
+  2 => 'type',
+  3 => 'title',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000727s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008923s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.008287s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000556s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.006586s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.008189s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000324s ]
+---------------------------------------------------------------
+[2019-11-08T09:07:26+08:00] 127.0.0.1 GET www.crmeb.com/static/api/js/share.js?v=89860593.js?cdnversion=436992
+[运行时间：0.022992s] [吞吐率：43.49req/s] [内存消耗：1,059.05kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-11-08T09:07:36+08:00] 127.0.0.1 GET www.crmeb.com/?page=2
+[运行时间：0.070460s] [吞吐率：14.19req/s] [内存消耗：2,861.88kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/index_index.php [ array (
+  0 => 'backimg',
+  1 => 'page',
+  2 => 'list',
+  3 => 'type',
+  4 => 'tops',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.006185s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.006869s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005680s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `status` = 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `status` = 1 LIMIT 5,5 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img` FROM `article` WHERE  `status` = 1  AND `img` <> '' ORDER BY id desc LIMIT 5 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006204s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[2019-11-08T09:07:40+08:00] 127.0.0.1 GET www.crmeb.com/?page=1
+[运行时间：0.070043s] [吞吐率：14.28req/s] [内存消耗：2,875.86kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/index_index.php [ array (
+  0 => 'backimg',
+  1 => 'page',
+  2 => 'list',
+  3 => 'type',
+  4 => 'tops',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000628s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.007878s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.005493s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007890s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `status` = 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `status` = 1 LIMIT 0,5 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img` FROM `article` WHERE  `status` = 1  AND `img` <> '' ORDER BY id desc LIMIT 5 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006117s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[2019-11-08T09:18:08+08:00] 127.0.0.1 GET www.crmeb.com/?page=2
+[运行时间：0.098488s] [吞吐率：10.15req/s] [内存消耗：2,861.84kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/?page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/index_index.php [ array (
+  0 => 'backimg',
+  1 => 'page',
+  2 => 'list',
+  3 => 'type',
+  4 => 'tops',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002359s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.007528s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.007846s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.009199s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `status` = 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `status` = 1 LIMIT 5,5 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img` FROM `article` WHERE  `status` = 1  AND `img` <> '' ORDER BY id desc LIMIT 5 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006518s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[2019-11-08T09:18:15+08:00] 127.0.0.1 GET www.crmeb.com/?page=1
+[运行时间：0.092632s] [吞吐率：10.80req/s] [内存消耗：2,875.86kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/index_index.php [ array (
+  0 => 'backimg',
+  1 => 'page',
+  2 => 'list',
+  3 => 'type',
+  4 => 'tops',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010386s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.007897s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.006658s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007258s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `status` = 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `status` = 1 LIMIT 0,5 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img` FROM `article` WHERE  `status` = 1  AND `img` <> '' ORDER BY id desc LIMIT 5 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.007031s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[2019-11-08T09:18:17+08:00] 127.0.0.1 GET www.crmeb.com/?page=2
+[运行时间：0.070614s] [吞吐率：14.16req/s] [内存消耗：2,861.79kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/?page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/index_index.php [ array (
+  0 => 'backimg',
+  1 => 'page',
+  2 => 'list',
+  3 => 'type',
+  4 => 'tops',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000497s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008050s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.005642s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007464s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `status` = 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `status` = 1 LIMIT 5,5 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img` FROM `article` WHERE  `status` = 1  AND `img` <> '' ORDER BY id desc LIMIT 5 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.007141s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.001323s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[2019-11-08T09:18:22+08:00] 127.0.0.1 GET www.crmeb.com/info/6/
+[运行时间：0.081770s] [吞吐率：12.23req/s] [内存消耗：2,699.87kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'info/<id>',
+  'route' => 'index/Info/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => '6',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/info/6/' => '',
+  'id' => '6',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/info_index.php [ array (
+  0 => 'backimg',
+  1 => 'info',
+  2 => 'type',
+  3 => 'title',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008288s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.016680s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.009011s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006967s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[2019-11-08T09:18:22+08:00] 127.0.0.1 GET www.crmeb.com/static/api/js/share.js?v=89860593.js?cdnversion=436992
+[运行时间：0.025612s] [吞吐率：39.04req/s] [内存消耗：1,059.05kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-11-08T09:18:33+08:00] 127.0.0.1 GET www.crmeb.com/info/9/
+[运行时间：0.075253s] [吞吐率：13.29req/s] [内存消耗：2,696.02kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'info/<id>',
+  'route' => 'index/Info/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => '9',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/info/9/' => '',
+  'id' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/info_index.php [ array (
+  0 => 'backimg',
+  1 => 'info',
+  2 => 'type',
+  3 => 'title',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000658s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.007554s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.006864s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007644s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006122s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[2019-11-08T09:18:33+08:00] 127.0.0.1 GET www.crmeb.com/static/api/js/share.js?v=89860593.js?cdnversion=436992
+[运行时间：0.019183s] [吞吐率：52.13req/s] [内存消耗：1,059.05kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-11-08T09:18:42+08:00] 127.0.0.1 GET www.crmeb.com/?type=1
+[运行时间：0.081400s] [吞吐率：12.29req/s] [内存消耗：2,836.41kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/index_index.php [ array (
+  0 => 'backimg',
+  1 => 'page',
+  2 => 'list',
+  3 => 'type',
+  4 => 'tops',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000839s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.006970s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.005710s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.006976s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `status` = 1  AND `type` = 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `status` = 1  AND `type` = 1 LIMIT 0,5 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img` FROM `article` WHERE  `type` = 1  AND `status` = 1  AND `img` <> '' ORDER BY id desc LIMIT 5 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.007129s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[2019-11-08T09:18:43+08:00] 127.0.0.1 GET www.crmeb.com/
+[运行时间：0.090697s] [吞吐率：11.03req/s] [内存消耗：2,875.59kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/?type=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/index_index.php [ array (
+  0 => 'backimg',
+  1 => 'page',
+  2 => 'list',
+  3 => 'type',
+  4 => 'tops',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011050s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.006760s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.008741s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.008128s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `status` = 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `status` = 1 LIMIT 0,5 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img` FROM `article` WHERE  `status` = 1  AND `img` <> '' ORDER BY id desc LIMIT 5 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006136s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[2019-11-08T09:18:47+08:00] 127.0.0.1 GET www.crmeb.com/?type=2
+[运行时间：0.073831s] [吞吐率：13.54req/s] [内存消耗：2,876.13kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/index_index.php [ array (
+  0 => 'backimg',
+  1 => 'page',
+  2 => 'list',
+  3 => 'type',
+  4 => 'tops',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000617s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.006765s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.007828s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.006173s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `status` = 1  AND `type` = 2 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `status` = 1  AND `type` = 2 LIMIT 0,5 [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img` FROM `article` WHERE  `type` = 2  AND `status` = 1  AND `img` <> '' ORDER BY id desc LIMIT 5 [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006920s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000235s ]
+---------------------------------------------------------------
+[2019-11-08T17:07:39+08:00] 127.0.0.1 GET www.crmeb.com/?type=2&page=2
+[运行时间：0.106036s] [吞吐率：9.43req/s] [内存消耗：2,862.23kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/?type=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  'type' => '2',
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/index_index.php [ array (
+  0 => 'backimg',
+  1 => 'page',
+  2 => 'list',
+  3 => 'type',
+  4 => 'tops',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002876s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.010128s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.008666s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.009501s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `status` = 1  AND `type` = 2 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `status` = 1  AND `type` = 2 LIMIT 5,5 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img` FROM `article` WHERE  `type` = 2  AND `status` = 1  AND `img` <> '' ORDER BY id desc LIMIT 5 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006852s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000215s ]
+---------------------------------------------------------------
+[2019-11-08T17:07:41+08:00] 127.0.0.1 GET www.crmeb.com/info/9/
+[运行时间：0.075818s] [吞吐率：13.19req/s] [内存消耗：2,696.00kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'info/<id>',
+  'route' => 'index/Info/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'id' => '9',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/?type=2&page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+  '/info/9/' => '',
+  'id' => '9',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/info_index.php [ array (
+  0 => 'backimg',
+  1 => 'info',
+  2 => 'type',
+  3 => 'title',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011365s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.007259s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.005572s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007375s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.005577s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[2019-11-08T17:07:41+08:00] 127.0.0.1 GET www.crmeb.com/static/api/js/share.js?v=89860593.js?cdnversion=437000
+[运行时间：0.041678s] [吞吐率：23.99req/s] [内存消耗：1,059.05kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[2019-11-08T17:07:44+08:00] 127.0.0.1 GET www.crmeb.com/
+[运行时间：0.083132s] [吞吐率：12.03req/s] [内存消耗：2,875.59kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=36h3lh5u4unst3ntift6nme9e7',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.crmeb.com/info/9/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36 OPR/63.0.3368.107',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.crmeb.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\wolfbolg\application\index/view/default/web/index_index.php [ array (
+  0 => 'backimg',
+  1 => 'page',
+  2 => 'list',
+  3 => 'type',
+  4 => 'tops',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000693s ] mysql:host=127.0.0.1;port=3306;dbname=blog_test;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.006798s ]
+[ sql ] [ SQL ] SELECT `tp_name` FROM `config` LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `background` [ RunTime:0.007396s ]
+[ sql ] [ SQL ] SELECT * FROM `background` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005926s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE  `status` = 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `status` = 1 LIMIT 0,5 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`img` FROM `article` WHERE  `status` = 1  AND `img` <> '' ORDER BY id desc LIMIT 5 [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.006366s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `category` WHERE  `status` = 1 ORDER BY `sort` ASC [ RunTime:0.000160s ]
